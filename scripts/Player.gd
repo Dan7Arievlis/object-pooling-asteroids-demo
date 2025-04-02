@@ -23,7 +23,6 @@ func _unhandled_input(event: InputEvent) -> void:
 		animation_player.play("moving")
 	if event.is_action_released("move_forward"):
 		animation_player.play("idle")
-		
 
 
 func _physics_process(delta: float) -> void:
